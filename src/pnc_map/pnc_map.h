@@ -1,4 +1,4 @@
-z#pragma once
+#pragma once
 
 class PNC_Map{
 public:

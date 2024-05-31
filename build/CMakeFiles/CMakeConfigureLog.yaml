@@ -1,0 +1,241 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/3.29.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/3.29.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-p3p5nb"
+      binary: "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-p3p5nb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-p3p5nb'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/make.exe -f Makefile cmTC_2678d/fast
+        C:/mingw64/bin/make.exe  -f CMakeFiles/cmTC_2678d.dir/build.make CMakeFiles/cmTC_2678d.dir/build
+        make[1]: Entering directory 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-p3p5nb'
+        Building C object CMakeFiles/cmTC_2678d.dir/CMakeCCompilerABI.c.obj
+        C:/mingw64/bin/gcc.exe   -v -o CMakeFiles/cmTC_2678d.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=c:\\mingw64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-13.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2678d.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2678d.dir/'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2678d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\tensor\\AppData\\Local\\Temp\\cc7IjCbm.s
+        GNU C17 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        cc1.exe: fatal error: Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c: No such file or directory
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_2678d.dir/build.make:78: CMakeFiles/cmTC_2678d.dir/CMakeCCompilerABI.c.obj] Error 1
+        make[1]: Leaving directory 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-p3p5nb'
+        make: *** [Makefile:127: cmTC_2678d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/mingw64/bin/gcc.exe"
+    directories:
+      source: "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-g2rp2s"
+      binary: "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-g2rp2s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-g2rp2s'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/make.exe -f Makefile cmTC_e034d/fast
+        C:/mingw64/bin/make.exe  -f CMakeFiles/cmTC_e034d.dir/build.make CMakeFiles/cmTC_e034d.dir/build
+        make[1]: Entering directory 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-g2rp2s'
+        Building C object CMakeFiles/cmTC_e034d.dir/testCCompiler.c.obj
+        C:/mingw64/bin/gcc.exe    -o CMakeFiles/cmTC_e034d.dir/testCCompiler.c.obj -c G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-g2rp2s/testCCompiler.c
+        Linking C executable cmTC_e034d.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_e034d.dir/objects.a
+        C:/mingw64/bin/ar.exe qc CMakeFiles/cmTC_e034d.dir/objects.a @CMakeFiles/cmTC_e034d.dir/objects1.rsp
+        C:/mingw64/bin/gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_e034d.dir/objects.a -Wl,--no-whole-archive -o cmTC_e034d.exe -Wl,--out-implib,libcmTC_e034d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e034d.dir/linkLibs.rsp
+        make[1]: Leaving directory 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-g2rp2s'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-e5t301"
+      binary: "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-e5t301"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-e5t301'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/make.exe -f Makefile cmTC_43cc8/fast
+        C:/mingw64/bin/make.exe  -f CMakeFiles/cmTC_43cc8.dir/build.make CMakeFiles/cmTC_43cc8.dir/build
+        make[1]: Entering directory 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-e5t301'
+        Building CXX object CMakeFiles/cmTC_43cc8.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/mingw64/bin/c++.exe   -v -o CMakeFiles/cmTC_43cc8.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=c:\\mingw64\\bin\\c++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-13.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_43cc8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_43cc8.dir/'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_43cc8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\tensor\\AppData\\Local\\Temp\\ccHlUfU1.s
+        GNU C++17 (x86_64-posix-seh-rev0, Built by MinGW-Builds project) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1320-posix-seh-ucrt-rt_v11-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        cc1plus.exe: fatal error: Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp: No such file or directory
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_43cc8.dir/build.make:78: CMakeFiles/cmTC_43cc8.dir/CMakeCXXCompilerABI.cpp.obj] Error 1
+        make[1]: Leaving directory 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-e5t301'
+        make: *** [Makefile:127: cmTC_43cc8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/mingw64/bin/c++.exe"
+    directories:
+      source: "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-zdroqi"
+      binary: "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-zdroqi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-zdroqi'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/make.exe -f Makefile cmTC_d6d4f/fast
+        C:/mingw64/bin/make.exe  -f CMakeFiles/cmTC_d6d4f.dir/build.make CMakeFiles/cmTC_d6d4f.dir/build
+        make[1]: Entering directory 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-zdroqi'
+        Building CXX object CMakeFiles/cmTC_d6d4f.dir/testCXXCompiler.cxx.obj
+        C:/mingw64/bin/c++.exe    -o CMakeFiles/cmTC_d6d4f.dir/testCXXCompiler.cxx.obj -c G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-zdroqi/testCXXCompiler.cxx
+        Linking CXX executable cmTC_d6d4f.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_d6d4f.dir/objects.a
+        C:/mingw64/bin/ar.exe qc CMakeFiles/cmTC_d6d4f.dir/objects.a @CMakeFiles/cmTC_d6d4f.dir/objects1.rsp
+        C:/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/cmTC_d6d4f.dir/objects.a -Wl,--no-whole-archive -o cmTC_d6d4f.exe -Wl,--out-implib,libcmTC_d6d4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_d6d4f.dir/linkLibs.rsp
+        make[1]: Leaving directory 'G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/CMakeFiles/CMakeScratch/TryCompile-zdroqi'
+        
+      exitCode: 0
+...
