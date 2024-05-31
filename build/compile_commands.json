@@ -22,5 +22,11 @@
   "command": "C:/mingw64/bin/c++.exe -Dshow_result_EXPORTS @CMakeFiles/show_result.dir/includes_CXX.rsp -g -o CMakeFiles/show_result.dir/show_result.cpp.obj -c G:/cpp_prj/cmake_largecale/Cmake_largeScale/src/show_result/show_result.cpp",
   "file": "G:/cpp_prj/cmake_largecale/Cmake_largeScale/src/show_result/show_result.cpp",
   "output": "src/show_result/CMakeFiles/show_result.dir/show_result.cpp.obj"
+},
+{
+  "directory": "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/test/map_test",
+  "command": "C:/mingw64/bin/c++.exe  @CMakeFiles/map_test.dir/includes_CXX.rsp -g -o CMakeFiles/map_test.dir/map_test.cpp.obj -c G:/cpp_prj/cmake_largecale/Cmake_largeScale/test/map_test/map_test.cpp",
+  "file": "G:/cpp_prj/cmake_largecale/Cmake_largeScale/test/map_test/map_test.cpp",
+  "output": "test/map_test/CMakeFiles/map_test.dir/map_test.cpp.obj"
 }
 ]

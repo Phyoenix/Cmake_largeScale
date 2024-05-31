@@ -8,6 +8,7 @@ project(planning
 )
 
 set(CMAKE_CXX_STANDARD 17)
+enable_testing()
 
 # viriable and index setting
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
@@ -27,3 +28,4 @@ endif()
 
 # add subdirectories
 add_subdirectory(src)
+add_subdirectory(test/map_test)
