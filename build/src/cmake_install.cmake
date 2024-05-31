@@ -47,3 +47,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/src/process/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/src/show_result/cmake_install.cmake")
+endif()
+

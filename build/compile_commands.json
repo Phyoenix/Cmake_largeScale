@@ -16,5 +16,11 @@
   "command": "C:/mingw64/bin/c++.exe -Dprocess_EXPORTS @CMakeFiles/process.dir/includes_CXX.rsp -g -o CMakeFiles/process.dir/process.cpp.obj -c G:/cpp_prj/cmake_largecale/Cmake_largeScale/src/process/process.cpp",
   "file": "G:/cpp_prj/cmake_largecale/Cmake_largeScale/src/process/process.cpp",
   "output": "src/process/CMakeFiles/process.dir/process.cpp.obj"
+},
+{
+  "directory": "G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/src/show_result",
+  "command": "C:/mingw64/bin/c++.exe -Dshow_result_EXPORTS @CMakeFiles/show_result.dir/includes_CXX.rsp -g -o CMakeFiles/show_result.dir/show_result.cpp.obj -c G:/cpp_prj/cmake_largecale/Cmake_largeScale/src/show_result/show_result.cpp",
+  "file": "G:/cpp_prj/cmake_largecale/Cmake_largeScale/src/show_result/show_result.cpp",
+  "output": "src/show_result/CMakeFiles/show_result.dir/show_result.cpp.obj"
 }
 ]

@@ -289,6 +289,15 @@ process_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 process_SOURCE_DIR:STATIC=G:/cpp_prj/cmake_largecale/Cmake_largeScale/src/process
 
+//Value Computed by CMake
+show_result_BINARY_DIR:STATIC=G:/cpp_prj/cmake_largecale/Cmake_largeScale/build/src/show_result
+
+//Value Computed by CMake
+show_result_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+show_result_SOURCE_DIR:STATIC=G:/cpp_prj/cmake_largecale/Cmake_largeScale/src/show_result
+
 
 ########################
 # INTERNAL cache entries
@@ -396,7 +405,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
